@@ -49,6 +49,7 @@ const MeetingTypeList = () => {
           },
         },
       });
+      // console.log("hekkkkkk");
       setCallDetail(call);
       if (!values.description) {
         router.push(`/metting/${call.id}`);
