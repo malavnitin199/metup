@@ -11,6 +11,7 @@ import { useUser } from "@clerk/nextjs";
 import MeetingModal from "./MeetingModal";
 import ReactDatePicker from "react-datepicker";
 import { Textarea } from "./ui/textarea";
+import { Input } from "./ui/input";
 
 const initialValues = {
   dateTime: new Date(),
@@ -102,6 +103,18 @@ const MeetingTypeList = () => {
           title="Create Meeting"
           handleClick={createMeeting}
         />
+      )}
+      {meetingState && (
+        <MeetingModal
+          isOpen={meetingState === "isJoiningMeeting"}
+          onClose={() => setMeetingState(undefined)}
+          title="Paste the link here"
+          className="text-center"
+          handleClick={() => router.push(values.link)}
+          buttonText="Join Meeting"
+        >
+          <Input />
+        </MeetingModal>
       )}
       {!callDetail ? (
         <MeetingModal
