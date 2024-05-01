@@ -1,40 +1,29 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
-Description
-This project is a comprehensive web application for conducting meetings seamlessly. It leverages modern technologies like Next.js, TypeScript, Clerk, getstream, shadcn, and Tailwind CSS to provide a rich user experience. Users can authenticate securely, start or join meetings, manage meeting controls, schedule future meetings, access past meetings and recordings, and enjoy various other features. The project emphasizes code architecture, reusability, and responsive design for optimal performance across devices.
+👉 Authentication: Implements authentication and authorization features using Clerk, allowing users to securely log in via social sign-on or traditional email and password methods, while ensuring appropriate access levels and permissions within the platform.
 
-Features
-Authentication: Utilizes Clerk for secure authentication and authorization, supporting social sign-on and traditional email/password methods.
-New Meeting: Easily initiate new meetings, configure camera and microphone settings before joining.
-Meeting Controls: Participants have full control over meeting aspects, including recording, reactions, screen sharing, muting/unmuting, sound adjustments, layout options, and participant management.
-Exit Meeting: Participants can leave a meeting, or creators can end it for all attendees.
-Schedule Future Meetings: Input meeting details to schedule future meetings, accessible on the 'Upcoming Meetings' page for sharing or immediate start.
-Past Meetings List: Access a list of previously held meetings, including details and metadata.
-View Recorded Meetings: Access recordings of past meetings for review or reference.
-Personal Room: Users have a personal room with a unique meeting link for instant meetings, shareable with others.
-Join Meetings via Link: Easily join meetings created by others by providing a link.
-Secure Real-time Functionality: Ensures all interactions within the platform are secure and occur in real-time, maintaining user privacy and data integrity.
-Responsive Design: Follows responsive design principles for optimal user experience across devices.
-Tech Stack
-Next.js
-TypeScript
-Clerk
-getstream
-shadcn
-Tailwind CSS
+👉 New Meeting: Quickly start a new meeting, configuring camera and microphone settings before joining.
 
-First, run the development server:
+👉 Meeting Controls: Participants have full control over meeting aspects, including recording, emoji reactions, screen sharing, muting/unmuting, sound adjustments, grid layout, participant list view, and individual participant management (pinning, muting, unmuting, blocking, allowing video share).
 
+👉 Exit Meeting: Participants can leave a meeting, or creators can end it for all attendees.
 
-Acknowledgements
-Clerk: For providing authentication and authorization capabilities.
-getstream: For enabling real-time functionality.
-Tailwind CSS: For the responsive design framework.
-Next.js: For the powerful React framework.
-TypeScript: For type-safe JavaScript development.
-shadcn: For [please specify the contribution or support they provided].
-```bash
+👉 Schedule Future Meetings: Input meeting details (date, time) to schedule future meetings, accessible on the 'Upcoming Meetings' page for sharing the link or immediate start.
+
+👉 Past Meetings List: Access a list of previously held meetings, including details and metadata.
+
+👉 View Recorded Meetings: Access recordings of past meetings for review or reference.
+
+👉 Personal Room: Users have a personal room with a unique meeting link for instant meetings, shareable with others.
+
+👉 Join Meetings via Link: Easily join meetings created by others by providing a link.
+
+👉 Secure Real-time Functionality: All interactions within the platform are secure and occur in real-time, maintaining user privacy and data integrity.
+
+👉 Responsive Design: Follows responsive design principles to ensure optimal user experience across devices, adapting seamlessly to different screen sizes and resolutions.
+
+and many more, including code architecture and reusability.
 npm run dev
 # or
 yarn dev
