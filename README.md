@@ -1,4 +1,12 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## TECK STACK
+Next.js
+TypeScript
+Clerk
+getstream
+shadcn
+Tailwind CSS
+
 
 ## Getting Started
 👉 Authentication: Implements authentication and authorization features using Clerk, allowing users to securely log in via social sign-on or traditional email and password methods, while ensuring appropriate access levels and permissions within the platform.
